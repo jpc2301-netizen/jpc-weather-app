@@ -130,4 +130,34 @@ h2 {
     font-size: 20px;
     font-weight: 600;
     color: #333;
+}.forecastTitle {
+  margin: 18px 0 10px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.day {
+  background: #f7f7f7;
+  border-radius: 14px;
+  padding: 10px;
+  text-align: center;
+}
+
+.day .date {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.day .hi {
+  font-weight: 800;
+  margin-top: 6px;
+}
+
+.day .lo {
+  opacity: 0.7;
+  font-size: 14px;
 }
