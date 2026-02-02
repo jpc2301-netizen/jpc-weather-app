@@ -25,11 +25,3 @@ HTML5
 CSS3
 REST API integration
 Netlify deployment
-🔥 Why this matters for employers
-This project demonstrates:
-API integration
-Async JavaScript
-Dynamic UI updates
-Error handling
-Real-world data usage
-That’s exactly what junior frontend roles test.
