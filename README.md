@@ -1,35 +1,35 @@
-
-# Weather App ☁️
-
-A simple weather app that lets you search any city and view current conditions plus today's high/low.
-
-## Live Demo
-👉 https://jpc-weather-app.netlify.app/
-
-## Features
-- City search
-- Current temperature, "feels like", wind speed
-- Today's high/low temperatures
-- Remembers last searched city (localStorage)
-- No API key required (Open-Meteo)
-
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
-## 🧠 Technical Highlights
-- Integrated two external endpoints (geocoding + forecast) to fetch weather by city name
-- Implemented asynchronous data fetching with `fetch()` and loading/error UI states
-- Rendered dynamic UI updates based on API responses (current + daily forecast)
-- Persisted user experience by saving the last searched city in `localStorage`
-- Deployed and maintained via GitHub → Netlify continuous deployment
-## ⚙️ Challenges & Solutions
-
-**Challenge:** Converting a user’s city search into coordinates for a forecast API  
-**Solution:** Used a geocoding request first, then passed latitude/longitude to the forecast endpoint
-
-**Challenge:** Avoiding broken UI when a city isn’t found or an API request fails  
-**Solution:** Added defensive checks and clear status messaging for error cases
-
-**Challenge:** Keeping the app convenient on repeat visits  
-**Solution:** Stored the last searched city in `localStorage` and auto-loaded it on refresh
+🌦 Weather App
+A JavaScript web app that allows users to search for a city and view real-time weather data and forecasts using a public weather API.
+🚀 Live Demo
+👉 https://jacksweather-app.netlify.app/
+💻 Source Code
+👉 https://github.com/jpc2301-netizen/jpc-weather-app
+🧠 Technical Highlights
+Integrated external weather API to fetch real-time data based on user input
+Implemented asynchronous data handling using fetch() and promises
+Dynamically updated the UI based on API responses
+Designed responsive layout using modern CSS techniques
+Implemented input handling and user-triggered searches
+Managed error handling and fallback states for invalid searches
+Deployed using GitHub → Netlify CI/CD workflow
+⚙️ Challenges & Solutions
+Challenge: Handling asynchronous API responses smoothly
+Solution: Implemented loading states and structured promise handling to prevent UI freezes
+Challenge: Preventing broken UI when a location isn’t found
+Solution: Added defensive checks and user-friendly error messaging
+Challenge: Displaying dynamic weather data clearly
+Solution: Structured DOM updates and layout styling to keep information readable
+🛠 Tech Stack
+JavaScript (ES6)
+HTML5
+CSS3
+REST API integration
+Netlify deployment
+🔥 Why this matters for employers
+This project demonstrates:
+API integration
+Async JavaScript
+Dynamic UI updates
+Error handling
+Real-world data usage
+That’s exactly what junior frontend roles test.
